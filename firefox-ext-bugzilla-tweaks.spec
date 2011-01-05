@@ -4,7 +4,7 @@
 Summary: Bugzilla extension for firefox
 Name: firefox-ext-bugzilla-tweaks
 Version: 1.6
-Release: %mkrel 1
+Release: %mkrel 2
 License: MPL
 Group:	Networking/WWW
 URL:	https://addons.mozilla.org/en-US/firefox/addon/187588/
