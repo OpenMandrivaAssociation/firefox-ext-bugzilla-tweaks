@@ -1,12 +1,13 @@
 Summary: Bugzilla extension for firefox
 Name: firefox-ext-bugzilla-tweaks
-Version: 1.6
-Release: %mkrel 3
+Version: 1.8
+Release: %mkrel 1
 License: MPL
 Group:	Networking/WWW
 URL:	https://addons.mozilla.org/en-US/firefox/addon/187588/
-Source: http://releases.mozilla.org/pub/mozilla.org/addons/187588/bugzilla_tweaks-%{version}-fx-fn-tb.xpi
+Source: http://releases.mozilla.org/pub/mozilla.org/addons/187588/bugzilla_tweaks-%{version}-fn+tb+fx.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+Obsoletes: %{name} < %{version}
 Requires: firefox >= %{firefox_epoch}:%{firefox_version}
 BuildArch: noarch
 BuildRequires: firefox-devel
