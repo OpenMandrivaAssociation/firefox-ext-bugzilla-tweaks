@@ -13,7 +13,8 @@ BuildArch: noarch
 BuildRequires: firefox-devel
 
 %description
-This extension modifies the pages loaded from bugzilla.mozilla.org and adds features including:
+This extension modifies the pages loaded from bugzilla.mozilla.org and adds
+features including:
 - Interleaving the bug's change history with the comments on the same page
 - Showing the last time that a bug or attachment flag was changed
 - Proving user name autocompletion support
